@@ -1,0 +1,22 @@
+// Import BootStrap 4 SCSS Framework
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import '_partials/variables';
+
+body {
+    background-color: $black;
+    color: $white;
+}
+
+body > .container-fluid {
+    padding: 0 !important;
+    header {
+        margin-top: 1em; 
+    }
+
+    footer {
+        margin-top: auto;
+    }
+}
+
