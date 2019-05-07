@@ -1,0 +1,26 @@
+footer {
+    background-color: #47008e;
+    padding: 1.5em;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li {
+            a {
+                width: 150px;
+                display: block;
+                img {
+                    max-width: 100%;
+                }
+            }
+            &:last-of-type {
+                a img {
+                    width: 70px;
+                }
+            }
+        }
+    }
+}
