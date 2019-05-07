@@ -21,6 +21,8 @@ if you are using MacOS, Ruby comes preinstalled, if you need to updated. I sugge
 
 [Ruby MacOS](https://jekyllrb.com/docs/installation/macos/) - Ruby MacOS
 
+Check you node is installed using:
+
 ```
 node -v
 ```
