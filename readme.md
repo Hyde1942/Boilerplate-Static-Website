@@ -19,7 +19,7 @@ if you are using Windows you can get Ruby from here:
 
 if you are using MacOS, Ruby comes preinstalled, if you need to updated. I suggest you to use Homebrew or RVM to update & manage Ruby versions
 
-[Ruby MacOS](https://jekyllrb.com/docs/installation/macos/) - Ruby MacOS
+[Ruby](https://jekyllrb.com/docs/installation/macos/) - for MacOS
 
 Check you node is installed using:
 
@@ -64,8 +64,9 @@ gulp serve
 
 the final build would be under _site folder.
 
-## Built With
 
+## Built With
+Gulp 4, Jekyll 3.8.5, Sass, Boostrap 4.
 
 ## Authors
 
