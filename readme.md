@@ -28,7 +28,7 @@ node -v
 ```
 you can install node from here:
 
-[node](https://nodejs.org/en/) - Node JS
+[node](https://nodejs.org/en/)
 
 ### Installing
 
@@ -66,7 +66,7 @@ the final build would be under _site folder.
 
 
 ## Built With
-Gulp 4, Jekyll 3.8.5, Sass, Boostrap 4.
+Gulp 4, Jekyll 3.8.5, Sass, Boostrap 4.s
 
 ## Authors
 
