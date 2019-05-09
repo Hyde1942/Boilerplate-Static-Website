@@ -5,7 +5,8 @@ var gulp = require('gulp'),
     jekyllProcess = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll',
     bundleProcess = process.platform === 'win32' ? 'bundle.bat' : 'bundle',
     browserSync = require('browser-sync').create(),
-    imageMin = require('gulp-imagemin');
+    imageMin = require('gulp-imagemin'),
+    sourceMaps = require('gulp-sourcemaps');
 
 
 
@@ -24,6 +25,7 @@ var paths = {
         dest:'_site/js/'
     }
 }
+
 
 
 function optimizeImages (){
@@ -52,6 +54,7 @@ function jekyllCompiler() {
 
 function scssCompilier (){
     return gulp.src(paths.styles.src)
+    .pipe(sourceMaps.init())
     .pipe(sass({
         outputStyle: 'expanded',
         includePaths: ['scss'],
@@ -60,6 +63,7 @@ function scssCompilier (){
     .pipe(autoprefixer({
         browsers: 'last 2 versions'
     }))
+    .pipe(sourceMaps.write())
     .pipe(gulp.dest(paths.styles.dest))
     .pipe(browserSync.reload({stream:true}));
 }
