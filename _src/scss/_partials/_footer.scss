@@ -1,6 +1,5 @@
 footer {
-    background-color: #47008e;
-    padding: 1.5em;
+    padding: 0.5em;
     ul {
         margin: 0;
         padding: 0;
@@ -10,7 +9,7 @@ footer {
         align-items: center;
         li {
             a {
-                width: 150px;
+                width: 80px;
                 display: block;
                 img {
                     max-width: 100%;
@@ -18,7 +17,7 @@ footer {
             }
             &:last-of-type {
                 a img {
-                    width: 70px;
+                    width: 40px;
                 }
             }
         }

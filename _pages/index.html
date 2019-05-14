@@ -4,18 +4,26 @@ title: Jekyll Boilerplate
 permalink: /
 ---
 
-<header>
+<article class="text-white">
     <h1>Jekyll Boilerplate</h1>
     <p>This is Static Website Boilerplate. It's meant to be use as starting point to develop small web proyects, without the need to install or learn complex Web Tooling.</p>
     <p>The Boilerplate has the following features</p>
     <ul>
         <li>Gulp 4, Jekyll 3.8.5</li>
-        <li>Boostrap 4.0</li>
+        <li>Bootstrap 4.0 (Sass Bootstrap)</li>
         <li>jQuery Slim</li>
         <li>Sass & Autoprefixer compiling with SourceMaps</li>
         <li>BrowserSync as development web server</li>
         <li>Image Minification (issues on MacOS)</li>
     </ul>
-</header>
+    <p>All dependencies are managed as NPM packages. Except for Jekyll which is a Ruby Gem. All Ruby gems can be manage on the Gemlock file</p>
+    <p>Jekyll is mainly used to develop static blogs. However it provides nice features to build static websites, as modules. which are easy to manage and maintain</p>
+    <p>Front Matter, provides a dynamic layer in which you can buid logic around to reuse code. Also defaults values can be set on _config.yml file globably. Permalink are a very nice way to fake any url from _pages folder. When site is build the folder schema would be generated for you.</p>
+
+    <p>Gulp provides an easy way to create task to automate workflow. you can create your own based on your projects needs.</p>
+
+    <p>Website can be hosted for free using Github Pages</p>
+</article>
+
 
 
